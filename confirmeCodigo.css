@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(170, 2, 2);
+}
+
+div#coluna{
+    background-color: white;
+    left: 220px;
+    top: 70px;
+    height: 500px;
+    width: 900px;
+    float: none;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+h1{
+    position: absolute;
+    left: 280px;
+    top: 120px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#digito1{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border: 5px solid; 
+    border-color: #d3d3d3;
+    border-radius: 25px;
+    font-size:80px;
+    top: 230px;
+    left: 280px;
+}
+
+input#digito2{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border: 5px solid; 
+    border-color:#d3d3d3;
+    border-radius: 25px;
+    font-size: 80px;
+    top: 230px;
+    left: 430px;
+}
+
+input#digito3{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border: 5px solid; 
+    border-color:#d3d3d3;
+    border-radius: 25px;
+    font-size: 80px;
+    top: 230px;
+    left: 580px;
+}
+
+input#digito4{
+    position: absolute;
+    width:120px;
+    height:120px;
+    border: 5px solid; 
+    border-color:#d3d3d3;
+    border-radius: 25px;
+    font-size: 80px;
+    top: 230px;
+    left: 730px;
+}
+
+button{
+    padding: 5px;
+    margin: 15px ;
+    font-size: 20px;
+    display: inline-block;
+    width: 230px;
+    border-radius: 10px;
+    position: absolute;
+    left: 620px;
+    top: 400px;
+    color: white;
+    background-color:rgb(170, 2, 2);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
